@@ -1,0 +1,41 @@
+@import "../node_modules/vanilla-framework/scss/vanilla";
+@include vanilla;
+
+body {
+  margin: 3rem;
+}
+
+a {
+  color: #0090e4;
+  font-weight: 300;
+}
+
+div.blog-p-card {
+  border-radius: 3px;
+  border-top: 3px solid #A87CA0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+h3.blog-p-card__header {
+  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+h4.blog-p-card__category,
+div.blog-p-card__content,
+p.blog-p-card__type {
+  padding: 0 0.5rem;
+}
+
+header.blog-p-card__header,
+div.blog-p-card__content {
+  border-bottom: 1px dotted #CDCDCD;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+div.blog-p-card__content {
+  height: 100%;
+}
